@@ -8,6 +8,7 @@ spring:
     url: jdbc:postgresql://localhost:9999/quik_searcher_user_db
     username: postgres
     password: "12345678"
+    driver-class-name: org.postgresql.Driver
   jpa: 
     hibernate:
       ddl-auto: update
