@@ -4,4 +4,11 @@ server:
 spring:
   application:
     name:user-service
-  
+  datasource: 
+    url: jdbc:postgresql://localhost:9999/quik_searcher_user_db
+    username: postgres
+    password: 12345678
+  jpa: 
+    hibernate:
+      ddl-auto: update
+    show-sql: true
