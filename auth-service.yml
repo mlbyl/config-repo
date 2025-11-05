@@ -7,3 +7,6 @@ spring:
 
 user-service:
   url: http://user-service:8080
+
+jwt:
+  secret: c3ByaW5nYm9vdHF1aWtzZWFyY2hlcmF1dGhqd3RzZWNyZXRrZXk=
