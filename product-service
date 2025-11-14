@@ -1,0 +1,18 @@
+server:
+  port: 8082
+
+spring: 
+  application:
+    name: product-service
+  datasource:
+    url: jdbc:postgresql://host.docker.internal:9999/quik_searcher_product_db
+    username: postgres
+    password: "12345678:
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    properties: 
+      hibernate: 
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+    show-sql: true
